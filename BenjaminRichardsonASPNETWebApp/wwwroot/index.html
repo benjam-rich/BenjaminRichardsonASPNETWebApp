@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/main1.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>B-Richardson</title>
+    <!--Insert tab image here-->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+</head>
+<body>
+    <!--This is the bulk of the structure of the page. Pretty, right?-->
+    <h1>Benjamin Richardson</h1>
+    <img src="img/IMG_5482.jpg" style="width:750px;height:500px;"/>
+    <p>My preferred name is Benjamin, Benji, Jamin, or really anything other than Ben. There's just already a lot of Ben's, ya know?</p>
+    <br />
+    <p>
+        <b>What do I want to get out of this class? </b>That's a great question. I am not entirely comfortable programming, and would really love to
+        put in the time necessary to really understand this course material. Object oriented programming is not one of my IS strengths, but I beleive it
+        can be. That's why I'm really hoping to master the material in the course this semester.
+    </p>
+    <br />
+    <p>My top 3 jobs for post-graduation</p>
+    <ul class="jobs">
+        <li>1. Consultant</li>
+        <li>2. Stay at home Dad</li>
+        <li>3. International Art Thief (just as backup)</li>
+    </ul>
+    <div>
+        <!--Create a form to gather the percentage score inputs for the student-->
+        <h2>Grade Calculator</h2><br />
+        Enter all scores as a percentage
+        <form>
+            <br />
+            <label>Enter Score for Assignments</label>
+            <input id="asnmts" placeholder="100.0"/> <br />
+            <label>Enter Score for Group Projects</label>
+            <input id="gp" placeholder="100.0"/> <br />
+            <label>Enter Score for Quizzes</label>
+            <input id="quiz" placeholder="100.0"/> <br />
+            <label>Enter Score for Exams</label>
+            <input id="exam" placeholder="100.0"/> <br />
+            <label>Enter Score for INTEX</label>
+            <input id="intex" placeholder="100.0"/> <br /> <br />
+            <input type="button" value="Submit" id="Submit" onclick="calc_grade()" />
+
+        </form>
+    </div>
+    <!--Never Forget to say thank you!-->
+    <br /><p>Thank you for visiting my site ;)</p>
+
+    <script src="js/calculate.js"></script>
+</body>
+</html>

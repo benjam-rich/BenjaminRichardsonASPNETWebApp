@@ -1,0 +1,36 @@
+﻿body {
+    background-color: lightslategrey;
+    margin: auto;
+    width: 50%;
+}
+
+label {
+    color: darkslategray;
+    width: 400px;
+}
+
+li {
+    list-style-type: square;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: lightslategrey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
