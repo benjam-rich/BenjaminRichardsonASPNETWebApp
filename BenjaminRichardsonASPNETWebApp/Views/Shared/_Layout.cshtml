@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/css/main.css" rel="stylesheet" />
+    <link href="~/css/main1.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <!--Insert tab image here-->
+    <link rel="shortcut icon" type="image/x-icon" href="~/img/favicon.ico" />
+</head>
+<body>
+    <!--This is the bulk of the structure of the page. Pretty, right?-->
+    <header>
+        <h1>Benjamin Richardson</h1>
+        <menu>
+            <div class="topnav">
+                <a class="active" asp-controller="Home" asp-action="Index">Home</a>
+                <a asp-controller="Home" asp-action="Form">Grade Calculator</a>
+            </div>
+        </menu>
+    </header>
+
+    @RenderBody()
+   
+    <br /><br />
+    <!--Never Forget to say thank you!-->
+    <footer>Thank you for visiting my site ;)</footer> <br />
+
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/calculate2.js"></script>
+</body>
+</html>
+
