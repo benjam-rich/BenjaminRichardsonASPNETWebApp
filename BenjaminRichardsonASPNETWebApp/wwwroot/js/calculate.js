@@ -13,7 +13,7 @@ function calc_grade()
     //calculate the total number of points earned by the student
     tot_percent = (asnmts * 1000) + (gp * 200) + (quiz * 200) + (exam * 400) + (intex * 200);
     //turn the total number of points earned into a percent
-    tot_percent = (tot_percent/2000)
+    tot_percent = (tot_percent / 2000);
 
     //Figure out what the letter grade should be for the final percentage
     if (tot_percent > 92.9) {
@@ -58,3 +58,6 @@ function calc_grade()
     
 
 }
+
+
+
